@@ -78,13 +78,34 @@ export function App(props) {
 
       <Drawer open={drawer_open} onClose={handleCloseDrawer}>
         <List componet="nav">
-          <ListItem button to={"/app/"} component={Link}>
+          <ListItem
+            button
+            to={"/app/"}
+            component={Link}
+            onClick={() => {
+              handleCloseDrawer();
+            }}
+          >
             Tasks
           </ListItem>
-          <ListItem button to={"/app/equipment"} component={Link}>
+          <ListItem
+            button
+            to={"/app/equipment"}
+            component={Link}
+            onClick={() => {
+              handleCloseDrawer();
+            }}
+          >
             Equipment
           </ListItem>
-          <ListItem button to={"/app/users"} component={Link}>
+          <ListItem
+            button
+            to={"/app/users"}
+            component={Link}
+            onClick={() => {
+              handleCloseDrawer();
+            }}
+          >
             Users
           </ListItem>
           <ListItem
@@ -94,6 +115,7 @@ export function App(props) {
                 "https://edtech.byu.edu/wiki/index.php/Main_Page",
                 "_blank"
               );
+              handleCloseDrawer();
             }}
           >
             Wiki
