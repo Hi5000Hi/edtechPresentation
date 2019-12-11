@@ -3,14 +3,14 @@ import "firebase/auth";
 import "firebase/firestore";
 
 const config = {
-  apiKey: "AIzaSyDd7eC4Xl1PmNRLjdfvE0fy-Rl1q6hpYwU",
-  authDomain: "edtech-c6501.firebaseapp.com",
-  databaseURL: "https://edtech-c6501.firebaseio.com",
-  projectId: "edtech-c6501",
-  storageBucket: "edtech-c6501.appspot.com",
-  messagingSenderId: "923465652977",
-  appId: "1:923465652977:web:0d4e8928a4fc9d968fe750",
-  measurementId: "G-L0MWQ87R4T"
+  apiKey: "AIzaSyBsmPjpyl07kAt_SNJYyeJ1ebZdvbLA6z4",
+  authDomain: "presentation-df945.firebaseapp.com",
+  databaseURL: "https://presentation-df945.firebaseio.com",
+  projectId: "presentation-df945",
+  storageBucket: "presentation-df945.appspot.com",
+  messagingSenderId: "762960956327",
+  appId: "1:762960956327:web:8d40391b3d35ab6f754482",
+  measurementId: "G-7WHVL6K72B"
 };
 
 firebase.initializeApp(config);
